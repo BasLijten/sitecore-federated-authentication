@@ -35,9 +35,9 @@ namespace BasLijten.FederatedAuthentication.Owin.Pipelines.IdentityProviders
             IdentityProvider identityProvider = this.GetIdentityProvider();
             string authenticationType = this.GetAuthenticationType();
 
-            var clientId = Sitecore.Configuration.Settings.GetSetting("Auth0.ClientId");
-            var clientSecret = Sitecore.Configuration.Settings.GetSetting("Auth0.ClientSecret");
-            var domain = Sitecore.Configuration.Settings.GetSetting("Auth0.Domain");
+            var clientId = Sitecore.Configuration.Settings.GetSetting("FedAuth.Auth0.ClientId");
+            var clientSecret = Sitecore.Configuration.Settings.GetSetting("FedAuth.Auth0.ClientSecret");
+            var domain = Sitecore.Configuration.Settings.GetSetting("FedAuth.Auth0.Domain");
 
             var provider = new Auth0.Owin.Auth0AuthenticationProvider
             {

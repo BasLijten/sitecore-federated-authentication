@@ -10,16 +10,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="App_Config/Include/BasLijten.FederatedAuthentication.Auth0.config">
-      <publishTime>10/23/2017 07:06:11</publishTime>
+      <publishTime>10/23/2017 22:31:00</publishTime>
+    </File>
+    <File Include="App_Config/Include/BasLijten.FederatedAuthentication.Auth0.Settings.config">
+      <publishTime>10/23/2017 16:49:49</publishTime>
     </File>
     <File Include="bin/Auth0.Owin.dll">
       <publishTime>06/20/2017 10:23:48</publishTime>
     </File>
     <File Include="bin/BasLijten.FederatedAuthentication.dll">
-      <publishTime>10/21/2017 11:43:10</publishTime>
+      <publishTime>10/23/2017 16:46:22</publishTime>
     </File>
     <File Include="bin/BasLijten.FederatedAuthentication.pdb">
-      <publishTime>10/21/2017 11:43:10</publishTime>
+      <publishTime>10/23/2017 16:46:22</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>04/13/2017 06:47:48</publishTime>
