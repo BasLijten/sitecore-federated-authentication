@@ -3,3 +3,7 @@
 ################################################################################
 
 /BasLijten.FederatedAuthentication/App_Config/Include/BasLijten.FederatedAuthentication.Auth0.Settings.config
+/.vs
+/BasLijten.FederatedAuthentication/obj
+/BasLijten.FederatedAuthentication/bin
+/packages
